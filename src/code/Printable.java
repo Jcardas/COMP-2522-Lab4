@@ -6,7 +6,7 @@
  * @ author Ted IP, Justin CARDAS
  * @ version 1.0
  **/
-public interface Printable
+interface Printable
 {
-    public void display();
+    void display();
 }
