@@ -5,5 +5,17 @@
  * @ version 1.0
  * */
 
-public void main(final String[] args) {
+public class Main
+{
+    public static void main(final String[] args)
+    {
+        // Temporary main for testing.
+        Date d1 = new Date(10, 12, 2004);
+
+        d1.display();
+
+        Name n1 = new Name("John", "Smith");
+
+        n1.display();
+    }
 }
